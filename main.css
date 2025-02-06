@@ -113,13 +113,3 @@ footer nav {
   margin: 0px;
   align-items: center;
 } */
-
-footer p {
-  width: 100%;
-  padding: 32px;
-  /* margin: auto; */
-  color: white;
-  border-top: 1px solid white;
-  display: flex;
-  justify-content: center;
-}
