@@ -8,6 +8,7 @@
 
 body{
   height: 100%;
+  /* margin: -10px; */
 }
 
 nav {
@@ -28,10 +29,30 @@ nav img {
   background-color: white;
 }
 
+/* nav ul,
+nav ul li,
+.spacer {
+  display: inline-block;
+} */
+
+/* .spacer { */
+  /* Parent width - Logo width - Menu <ul> width */
+  /* width: calc(100% - 132px - 276px);
+} */
+
 nav ul {
+  /* margin-bottom: 15px; */
   display: flex;
   gap: 20px;
 }
+
+/* nav ul li {
+  margin-right: 20px;
+} */
+
+/* #last-item {
+  margin-right: 0px;
+} */
 
 nav ul li a:link,
 nav ul li a:visited {
@@ -65,36 +86,17 @@ header {
   margin-bottom: 170px;
 }
 
-.thirdblock {
+.secimg {
+  width: 30%;
+  float: right;
+}
+
+.sectxt {
   padding: 30px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 20px;
 }
 
-.picleft {
-  flex-grow: 1;
-  flex-basis: 160px;
-}
-
-.picright {
-  flex-grow: 1;
-  flex-basis: 160px;
-}
-
-.thirdimg {
-  width: 100%;
-  /* float: left; */
-}
-
-.fourthimg {
-  width: 100%;
-  /* float: right; */
-}
-
-#thirdtxt {
-  /* clear: both; */
+h2 {
+  margin-bottom: 10px;
 }
 
 footer {
@@ -106,3 +108,8 @@ footer nav {
   display: flex;
   justify-content: center;
 }
+
+/* footer nav ul {
+  margin: 0px;
+  align-items: center;
+} */
