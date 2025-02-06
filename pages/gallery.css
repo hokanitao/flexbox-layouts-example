@@ -8,7 +8,6 @@
 
 body{
   height: 100%;
-  /* margin: -10px; */
 }
 
 nav {
@@ -29,30 +28,10 @@ nav img {
   background-color: white;
 }
 
-/* nav ul,
-nav ul li,
-.spacer {
-  display: inline-block;
-} */
-
-/* .spacer { */
-  /* Parent width - Logo width - Menu <ul> width */
-  /* width: calc(100% - 132px - 276px);
-} */
-
 nav ul {
-  /* margin-bottom: 15px; */
   display: flex;
   gap: 20px;
 }
-
-/* nav ul li {
-  margin-right: 20px;
-} */
-
-/* #last-item {
-  margin-right: 0px;
-} */
 
 nav ul li a:link,
 nav ul li a:visited {
@@ -79,24 +58,38 @@ header {
   width: 70%;
 }
 
-.main {
+main {
   margin: 30px;
   padding: 10px;
-  height: calc(100vh - 30px);
-  margin-bottom: 170px;
 }
 
-.secimg {
-  width: 30%;
-  float: right;
+.container {
+  display: flex;
+  /* flex-wrap: wrap; */
 }
 
-.sectxt {
-  padding: 30px;
+main div div ul {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
 }
 
-h2 {
-  margin-bottom: 10px;
+.list {
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+.pictures {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+main div div img {
+  width: 150px;
 }
 
 footer {
@@ -108,8 +101,3 @@ footer nav {
   display: flex;
   justify-content: center;
 }
-
-/* footer nav ul {
-  margin: 0px;
-  align-items: center;
-} */
